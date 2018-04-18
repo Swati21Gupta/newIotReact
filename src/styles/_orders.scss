@@ -1,0 +1,88 @@
+.orders-component {
+  float: right;
+  width: 50rem;
+  color: $orders-text-color;
+}
+.assign-row {
+  margin-top: 10rem;
+  margin-right: 5rem;
+  border: 1px solid $orders-border-color;
+}
+.graph-heading {
+  text-align: right;
+}
+.assign-block {
+  display: flex;
+  padding: 0 5rem 2rem 5rem;
+}
+.assign-graph {
+  width: 15rem;
+  height: 15rem;
+}
+.graph-label {
+  display: flex;
+  font-weight: bold;
+  padding-left: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  white-space: nowrap;
+}
+.graph-label div {
+  padding: .5rem;
+}
+.label-box {
+  padding: 0 0.7rem;
+  margin-right: 1rem;
+}
+.assigned-color {
+  background: $assign-color;
+}
+.unassigned-color {
+  background: $unassign-color;
+}
+.highlight {
+  color: #1b1c1d;
+}
+.priority-row, .reason-code-row {
+  border: 1px solid $orders-border-color;
+}
+.priority-graph {
+
+}
+.high-color {
+  background: $high-color;
+}
+.medium-color {
+  background: $medium-color;
+}
+.low-color {
+  background: $low-color;
+}
+.priority-graph-innertext-label, .priority-graph-innertext-value {
+  font-size: 1rem;
+}
+.graph-heading span {
+  padding: .7rem;
+  color: $white;
+  font-size: 1.6rem;
+  padding-top: 0.35rem;
+}
+.assign-heading {
+  background: $assign-heading-background;
+}
+.priority-heading {
+  background: $priority-heading-background;
+}
+.reason-code-heading {
+  background: $reasoncode-heading-background;
+}
+.outoftimewindow {
+  background: #8c62dd;
+}
+.back-button {
+  float: left;
+  color: #337ab7;
+  padding: 0 .5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}

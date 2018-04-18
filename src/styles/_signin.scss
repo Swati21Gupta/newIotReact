@@ -1,0 +1,24 @@
+.sign-in-form input {
+  height: 4.5rem;
+}
+.signin-heading {
+  color: $lighter-blue;
+  margin-bottom: 2rem;
+}
+.forgot-password {
+  float: right;
+  color: $light-blue;
+  font-size: 1.2rem;
+  padding-top: .6rem;
+  cursor: pointer;
+}
+.save-button {
+  color: $white;
+  text-align: center;
+  border-radius: .4rem;
+  width: 100%;
+  font-weight: 700;
+  background-color: $light-green;
+  padding: 1rem 3.5rem;
+  border: none;
+}

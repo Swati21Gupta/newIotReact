@@ -1,0 +1,141 @@
+.routes-table tr {
+  cursor: pointer;
+}
+
+.no-item-selected {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.click-not-allowed {
+  cursor: not-allowed;
+}
+.routes_data_table {
+  left: 0;
+}
+.routes_data_table ul {
+  border-bottom: 1px solid $table-row-border;
+}
+.stops_data_table {
+  right: 0;
+  width: 74%;
+  z-index: 3;
+  border-left: 1px solid $dark-gray;
+}
+.orders_data_table {
+  right: 0;
+  width: 60%;
+  z-index: 4;
+  border-left: 1px solid $dark-gray;
+}
+.items_data_table {
+  right: 0;
+  width: 46%;
+  z-index: 5;
+  border-left: 1px solid $dark-gray;
+}
+.heading-padding {
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+}
+.lock-button {
+  color: $white;
+  padding: .1rem 1rem;
+  text-align: center;
+  border: none;
+  border-radius: .4rem;
+  background: #F44336;
+}
+.unlock-icon {
+  font-size: 1.5rem;
+  color: $light-green;
+}
+.lock-icon {
+  font-size: 1.5rem;
+  color: #F44336;
+}
+
+.unassigned-orders tbody tr {
+  cursor: pointer;
+}
+.selected-row-background {
+  background: $selected-row;
+  color: $white;
+  font-weight: bold;
+}
+.show-hide-scorecard {
+  padding: .5rem 1rem;
+  background: #8bc34a;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1000;
+  color: red;
+  top: 7rem;
+  right: 0rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.show-hide-scorecard span {
+  padding: 0 0.5rem;
+  float: left;
+  color: $white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.toggle-routes-table {
+  padding: .5rem 1rem;
+  background: #8bc34a;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1000;
+  color: red;
+  bottom: 18.5rem;
+  right: 0rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.toggle-routes-table span {
+  padding: 0 0.5rem;
+}
+.Unlocked-toggle {
+  padding: 1rem;
+  float: right;
+  width: 8.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  background: #38c08e;
+  text-align: center;
+}
+.Locked-toggle {
+  padding: 1rem;
+  float: right;
+  width: 8.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  background: #F44336;
+  text-align: center;
+}
+.Locked-toggle, .Unlocked-toggle span {
+  color: $white;
+}
+.assign-driver-dd {
+  height: 2.5rem;
+  width: 10rem;
+  margin-top: .6rem;
+  margin-left: 9rem;
+}
+.assign-driver-button {
+  margin-left: 3rem;
+  line-height: 2;
+  height: 2.5rem;
+  width: 6rem;
+  text-align: center;
+  background: orange;
+  border-radius: 4px;
+  color: white;
+  margin-top: 0.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}

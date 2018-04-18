@@ -1,0 +1,135 @@
+// font-color, button-font, button-background
+$white: #ffffff;
+$light-green: #38c08e;
+$lighter-blue: #30ade2;
+$light-blue: #4966a0;
+$dark-gray: #979797;
+$assign-color: #5059ab;
+$unassign-color: #01cc9b;
+$high-color: #f55652;
+$medium-color: #fec012;
+$low-color: #53c4ce;
+$dark-red: #c1392d;
+$dark-blue: #3c8dbc;
+$assign-heading-background: #8958cd;
+$priority-heading-background: #64b3bf;
+$reasoncode-heading-background: #a9bf64;
+$table-row-border: #dddddd;
+
+$orders-text-color: #515151;
+$orders-border-color: #dad9db;
+$selected-row: #4f938d;
+
+.text-center {
+  text-align: center;
+}
+.display-inline-flex {
+  display: inline-flex;
+}
+.display-flex {
+	display: flex;
+}
+.display-block {
+  display: block;
+}
+.display-hide {
+  display: none;
+}
+.errorNotification {
+  color: red;
+}
+.responseNotification {
+  text-align: center;
+  color: $light-green;
+}
+
+.password-icon {
+	position: absolute;
+	right: 0;
+	margin-right: 3rem;
+	line-height: 3;
+  cursor: pointer;
+  color: $dark-gray;
+}
+
+.header-padding-top {
+  padding-top: 7rem;
+}
+
+.fontBold {
+  font-weight : bold;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+table tbody {
+  background: $white;
+}
+.table > thead > tr > th {
+  border-bottom: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+table  tbody  tr  td {
+  white-space: nowrap;
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.loader-container {
+  padding-top: 15rem;
+  position: relative;
+  z-index: 100;
+}
+.loader {
+  margin: 0 auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 10rem;
+  height: 10rem;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.font-size20 {
+  font-size: 2rem;
+}
+.font-size30 {
+  font-size: 3rem;
+}
+.font-size1 {
+  font-size: 1.2rem;
+}
+.date-picker {
+  width: 17rem;
+  padding-top: 1rem;
+}
+td a {
+  cursor: pointer;
+}
+li a {
+  cursor: pointer;
+}
+.import-tools-block {
+  list-style: none;
+  float: right;
+  display: inline-flex;
+  padding-top: .5rem;
+}
+.import-tools-block li {
+  padding: 0 .5rem;
+  line-height: 3rem;
+}
